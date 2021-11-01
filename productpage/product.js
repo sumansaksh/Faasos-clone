@@ -20,18 +20,26 @@ function showData(data){
          img.style.width="100%"
          let prod_name=document.createElement("p")
          prod_name.innerText=prod.name
+         prod_name.style.fontSize="18px"
+         prod_name.style.fontWeight="700"
+         prod_name.style.color="black"
          let prod_price=document.createElement("p")
          prod_price.innerText="₹" +prod.price
          div.append(prod_name,prod_price)
          let prod_desc=document.createElement("p")
          prod_desc.innerText=prod.description
+         prod_desc.style.height="18px"
+         prod_desc.style.overflow="hidden"
+         let readmore=document.createElement('p')
+         readmore.innerText="Read More"
          let prod_rating_div=document.createElement("div")
          let prod_rating=document.createElement("p")
-         prod_rating="★"+""+prod.rating
+         prod_rating="★"+" "+prod.rating
          prod_rating_div.append(prod_rating)
          prod_rating_div.style.backgroundColor="green"
          prod_rating_div.style.color="white"
-         prod_rating_div.style.width="15%"
+         prod_rating_div.style.width="20%"
+         prod_rating_div.style.padding="4px"
          prod_rating_div.style.borderRadius="4px"
          let addtoCartBtn=document.createElement("button")
          addtoCartBtn.innerText="ADD"
@@ -39,9 +47,7 @@ function showData(data){
         // addtoCartBtn.style.width="40%"
          addtoCartBtn.className="addtoCartBtn"
 
-      //   if(localStorage.getItem("displayitem")===null) {
-     //    localStorage.setItem("displayitem",JSON.stringify([]))
-     //}
+      
 
     
         
@@ -87,7 +93,7 @@ function showData(data){
          div2.style.justifyContent="space-between"
          div3.style.padding="2%"
 
-         div3.append(div,prod_desc,div2)
+         div3.append(div,prod_desc ,readmore,div2)
          div4.append(img,div3)
          midContainer.append(div4)
          div4.style.backgroundColor="white"
