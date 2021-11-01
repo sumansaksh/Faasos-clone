@@ -14,6 +14,8 @@ function showData(data){
         let div2=document.createElement("div")
         let div3=document.createElement("div")
         let div4=document.createElement("div")
+        let div5=document.createElement("div")
+        let div6=document.createElement("div")
        // if(prod.category=="Fab Wraps starting at 99 each"){
         let img=document.createElement("img")
          img.src=prod.img
@@ -23,15 +25,32 @@ function showData(data){
          prod_name.style.fontSize="18px"
          prod_name.style.fontWeight="700"
          prod_name.style.color="black"
+         prod_name.style.width="75%"
          let prod_price=document.createElement("p")
+         let btn_img=document.createElement("img")
+         btn_img.src="https://png.pngitem.com/pimgs/s/151-1515150_veg-icon-png-circle-transparent-png.png"
+         btn_img.style.width="12px"
+         btn_img.style.height="12px"
+         //btn_img.style.margin="25% 0 0 3%"
+        // btn_img.style.border="1px solid red"
          prod_price.innerText="₹" +prod.price
-         div.append(prod_name,prod_price)
+         div5.append(btn_img,prod_price)
+         div5.style.display="flex"
+         div5.style.justifyContent="space-between"
+         div5.style.width="22%"
+         div5.style.alignItems="center"
+         div5.style.marginTop="-15px"
+         div.append(prod_name,div5)
          let prod_desc=document.createElement("p")
          prod_desc.innerText=prod.description
-         prod_desc.style.height="18px"
+         prod_desc.style.height="16px"
          prod_desc.style.overflow="hidden"
          let readmore=document.createElement('p')
          readmore.innerText="Read More"
+
+         readmore.onclick=()=>{
+             window.location.href="productDetailsPage"
+         }
          let prod_rating_div=document.createElement("div")
          let prod_rating=document.createElement("p")
          prod_rating="★"+" "+prod.rating
@@ -39,11 +58,19 @@ function showData(data){
          prod_rating_div.style.backgroundColor="green"
          prod_rating_div.style.color="white"
          prod_rating_div.style.width="20%"
-         prod_rating_div.style.padding="4px"
-         prod_rating_div.style.borderRadius="4px"
+         prod_rating_div.style.padding="6px"
+         prod_rating_div.style.borderRadius="2px"
          let addtoCartBtn=document.createElement("button")
          addtoCartBtn.innerText="ADD"
          addtoCartBtn.style.backgroundColor="#FFCA28"
+         addtoCartBtn.style.width="85%"
+         let custom_text=document.createElement("p")
+         custom_text.innerText="customisable"
+         custom_text.style.fontSize="10px"
+         custom_text.style.lineHeight="0"
+         div6.append(addtoCartBtn,custom_text)
+         div6.style.textAlign="center"
+         div6.style.width="50%"
         // addtoCartBtn.style.width="40%"
          addtoCartBtn.className="addtoCartBtn"
 
@@ -86,15 +113,18 @@ function showData(data){
 
 
 
-         div2.append(prod_rating_div,addtoCartBtn)
+         div2.append(prod_rating_div,div6)
          div.style.display="flex"
          div.style.justifyContent="space-between"
+         //div.style.alignItems="center"
          div2.style.display="flex"
+         div2.style.height="40px"
          div2.style.justifyContent="space-between"
          div3.style.padding="2%"
 
          div3.append(div,prod_desc ,readmore,div2)
          div4.append(img,div3)
+         div4.style.cursor="pointer"
          midContainer.append(div4)
          div4.style.backgroundColor="white"
       //  }
