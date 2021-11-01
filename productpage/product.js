@@ -157,12 +157,12 @@ qty.innerHTML=count;
             },0)
             var total_pr=document.getElementById("total")
           
-            total_pr.innerHTML='₹'+" "+total
+            total_pr.innerHTML='₹'+""+total
           
     })
 }
 cartData()
 
 function gotoCart(){
- window.location.href="cart2.html"
+ window.location.href="/cart2.html"
 }
