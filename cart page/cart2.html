@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        body{
+            background-color: whitesmoke;
+
+        }
+        .box{
+            border: 1px solid black;
+        }
+        .container{
+            width: 85%;
+            height: 100%;
+            margin: auto;
+
+        }
+        .container div{
+            margin: 1%;
+        }
+        .row{
+            display: flex;
+           
+        }
+        .center{
+            align-items: center;
+        }
+        .col-left{
+            width: 63%;
+            height: 600px;
+            border: 1px solid black;
+            border-radius: 3px;
+
+        }
+        .addAddress{
+            margin: auto;
+            border: 2px dashed #FFA000;
+            height: 200px;
+            width: 330px;
+            text-align: center;
+        }
+        .add-new{
+            
+            width: 30%;
+            height: 33px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            color: black;
+            border: none;
+            background-color: #FFCA28;
+        
+        }
+        .col-right{
+            width: 33%;
+            height: 30%;
+
+            border-radius: 2px;
+            border: none;
+            padding: 15px;
+
+        }
+        #cart-right{
+            margin: 3px;
+            width: 98%;
+            background-color: white;
+        }
+        .cart-small-txt{
+            font-size: 12px;
+            color:#BDBDBD;
+
+        }
+        .cart-status{
+            padding: 22px;
+            border-radius: 8px;
+
+            height: 100px;
+            background-color: white;
+        }
+        .cart-address{
+            padding: 15px;
+            border-radius: 8px;
+
+            height: 300px;
+            background-color: white;
+        }
+        .cart-payment{
+            padding: 15px;
+            border-radius: 8px;
+
+            height: 70px;
+            background-color: white;
+        }
+        
+        
+        .p-text-color{
+            color:#726e6e;
+            font-size: 14px;
+
+        }
+        .margin{
+            margin: 6px;
+        }
+        .addtoCartBtn{
+            width: 50%;
+            height: 30px;
+            border-radius: 4px;
+            font-size: 15px;
+            font-weight: 500;
+            color: black;
+            border: none;
+            background-color: #FFCA28; 
+        }
+        .cart-bottom-left{
+            width: 83%;
+        }
+        .cart-bottom-right{
+            width: 17%;
+        }
+        .grand-total{
+            height: 17%;
+            width: 98%;
+            background-color: white;
+        }
+        
+        .line-height{
+            line-height: 0%;
+        }
+        .cart-txt-color{
+            color: green;
+        }
+        .coupon{
+            width: 98%;
+            border: 1px solid black;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <div class="container box "> 
+        <div class="row">
+            <div class="col-left box "> 
+                <div class="cart-status">
+                    <h2>Logged in</h2>
+                </div>
+                <div class="cart-address">
+                    <h2>Delivery Address</h2>
+                    <div class="addAddress">
+                        <h2>ADD NEW ADDRESS</h2>
+                        <button class="add-new">Add New</button>
+                    </div>
+                </div>
+                <div class="cart-payment">
+                    <h2>Payment</h2>
+                </div>
+     
+                 </div>
+            <div class="col-right box "> 
+                <div id="cart-right">
+
+            <div class="row center ">
+                <h2 class="margin ">Cart</h2>
+                <p id="qty">Q.</p>
+                <p></p>
+            </div>  
+            <div class=" center">
+
+                <div class="cart-left p-text-color" id="cart-item">
+                    
+                </div>
+              
+
+                <p class="p-text-color ">You can either apply coupon or credits</p>
+                
+                <div class="credits ">
+                    <h4>FAASOS CREDIT</h4>
+                    
+                </div>
+                <div class=" row coupon">
+                    <h3>APPLY COUPON</h3>
+                    <P class="all-coupons">View All Coupons</P>
+                </div>
+                </div>  
+                </div>
+                  <div class="grand-total">
+                      <div class="row">
+                        <div class="cart-bottom-left">
+
+                          <p class="line-height p-text-color">Cart Amount</p>
+                        </div>
+                          <p class="line-height cart-bottom-right" id="total-amt"></p>
+                        </div>
+                      <div class="row">
+                        <div class="cart-bottom-left">
+
+                        <p class="line-height p-text-color">Tax</p></div>
+                        <p class="line-height cart-bottom-right" id="gsttax"></p>
+                    </div>
+                    <div class="row">
+                        <div class="cart-bottom-left">
+
+                        <p class="line-height p-text-color">Delivery</p>
+                        </div>
+                        <p class="line-height cart-bottom-right cart-txt-color">Free</p>
+                    </div>
+                    <hr>
+                    <div class="row ">
+                        <div class="cart-bottom-left">
+                            <h2 class="line-height">GrandTotal</h2>
+                        </div>
+                        <div class="row cart-bottom-right">
+                           <p id="total"></p>
+                        </div>
+                    </div>
+                  
+                  </div>
+            </div>      
+            
+        </div>   
+    </div>
+        
+    
+</body>
+</html>
+<script src="Cart.js">
+
+  
+</script>
