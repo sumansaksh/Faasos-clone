@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./product_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!-- Image Carousel Start-->
@@ -37,6 +35,38 @@
   </div>
 <!-- Image Carousel End-->
 
+<!--search Bar-->
+  <!--Modal content-->
+  <div id="searchModal">
+    <div id="modalContent">
+        <button id="close">←</button>
+        <input type="text" placeholder="Search for Dishes"/>
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="searchContent"></div>
+</div>
+
+<!--Serarch bar and filters for Veg and Non-veg-->
+<div id="searchhead">
+    <div>
+        Order Food Online
+    </div>
+    <div>
+        <div id="search" onclick="search()">
+            <i class="fa fa-search"></i>
+            <div>Search for wraps</div>
+        </div>
+        <div>
+            <input type="checkbox"/>
+            <div>Non-Veg Only</div>
+        </div>
+        <div>
+            <input type="checkbox"/>
+            <div>Veg Only</div>
+        </div>
+    </div>
+</div>
+<!--search bar End-->
 
     <div class="container box "> 
         <div class="row">
@@ -97,3 +127,4 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="product.js"></script>
 <script src="carousel.js"></script>
+<script src="search.js"></script>
