@@ -74,105 +74,118 @@
       }
 
   /* Image Carousel End */
-        .box{
-            border: 1px solid black;
-        }
-        .container{
-            width: 85%;
-            margin: auto;
+  *{
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
 
-        }
-        .container div{
-            margin: 1%;
-            align-items: center;
+}
+.box{
+    border: 1px solid black;
+}
+.container{
+    width: 85%;
+    height: 100%;
+    margin: auto;
 
-        }
-        .row{
-            display: flex;
-           
-        }
-        .center{
-            align-items: center;
-        }
-        .col-left{
-            width: 15%;
-            height: 390px;
-            padding: 15px;
-            background-color: white;
-            border: none;
-            border-radius: 2px;
+}
+.container div{
+    margin: 1%;
+}
+.row{
+    display: flex;
+   
+}
+.center{
+    align-items: center;
+}
+.col-left{
+    width: 15%;
+    height: 30%;
+    height: 390px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
 
-        }
-        .col-mid{
-            width: 50%;
-            border-radius: 2px;
-            display: grid;
-            grid-template-columns: repeat(2,49%);
-           column-gap: 3%;
-           row-gap: 0.5%;
-        }
-        .col-right{
-            width: 33%;
+}
+.col-mid{
+    width: 50%;
+    height: 100%;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,49%);
+   column-gap: 3%;
+   row-gap: 0.5%;
+}
+.col-right{
+    width: 33%;
+    height: 30%;
 
-            border-radius: 2px;
-            border: none;
-            background-color: white;
-            padding: 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+    padding: 15px;
 
-        }
-        .cart-small-txt{
-            font-size: 12px;
-            color:#BDBDBD;
+}
+.cart-small-txt{
+    font-size: 12px;
+    color:#BDBDBD;
 
-        }
-        .cart-left{
-            width: 50%;
-        }
-        .item-btn{
-            border: 1px solid #FFA000;
-            background-color: white;
-            color: black;
-            font-size: 18px;
-            border-radius: 4px 7px 7px 4px;
-            margin: 8px;
-            height: 40px;
-            width: 40px;
-        }
-        #plus-btn{
-            border-radius: 7px 4px 4px 7px;
+}
 
-        }
-        .p-text-color{
-            color:#726e6e;
-            font-size: 14px;
+.item-btn{
+    border: 1px solid #FFA000;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 4px 7px 7px 4px;
+    margin: 8px;
+    height: 40px;
+    width: 40px;
+}
+#plus-btn{
+    border-radius: 7px 4px 4px 7px;
 
-        }
-        .margin{
-            margin: 6px;
-        }
-        .addtoCartBtn{
-            width: 50%;
-            height: 30px;
-            border-radius: 4px;
-            font-size: 15px;
-            font-weight: 500;
-            color: black;
-            border: none;
-            background-color: #FFCA28; 
-        }
-        .checkout-btn{
-            width: 100%;
-            height: 46px;
-            border-radius: 4px;
-            font-size: 16px;
-            font-weight: 600;
-            color: black;
-            border: none;
-            background-color: #FFCA28;
-        }
-        .line-height{
-            line-height: 0%;
-        }
+}
+.p-text-color{
+    color:#726e6e;
+    font-size: 14px;
+
+}
+.margin{
+    margin: 6px;
+}
+.addtoCartBtn{
+    width: 50%;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    background-color: #FFCA28; 
+}
+.cart-bottom-left{
+    width: 85%;
+}
+.cart-bottom-right{
+    width: 15%;
+}
+.checkout-btn{
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #FFCA28;
+}
+.line-height{
+    line-height: 0%;
+}
         /* product page description */
         .prod-desc{
           text-overflow: ellipsis;
