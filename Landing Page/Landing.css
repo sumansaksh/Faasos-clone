@@ -1,0 +1,40 @@
+#topBox{
+    display:grid;
+    grid-template-columns: 57% 43%;
+    grid-template-rows: 94%;
+}
+#leftBox{
+    width:100%;
+    background-image: url(https://assets.faasos.io/faasos_v2/brandPattern.png);
+}
+#rightBox > img{
+    width:588px;
+    height:584px;
+    border-bottom-left-radius: 4%;
+}
+#logoLine{
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-template-rows: 60%;
+    grid-gap: 38%;
+    margin:12% 0% 0% 13%;
+}
+#logoLine > div:nth-child(2){
+   
+    display:grid;
+    grid-template-columns: 30% 33%;
+    grid-gap: 1%;
+    font-size: large;
+}
+#logoLine > div:nth-child(2) > div:nth-child(1){
+    padding:11% 0% 0% 26%;
+    color: rgb(255, 211, 68);
+    font-weight: 800;
+}
+#logoLine > div:nth-child(2) > div:nth-child(2){
+    padding:7% 0% 0% 22%;
+    color: rgb(255, 211, 68);
+    font-weight: 800;
+    border: 1px solid rgb(255, 211, 68);
+    border-radius: 0.4rem;
+}
