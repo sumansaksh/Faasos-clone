@@ -65,16 +65,130 @@ let data = [
         img: "https://product-assets.faasos.io/production/product/image_1618581525548_image_1618218769125_Fab%20%26%20Loaded%20Non%20Veg%20Combo%201%20BBQ%20Chicken%20Overload%20Wrap%20%2B%201%20American%20Smokey%20Sausage%20Wrap.jpg",
 
     },
-    //       {
-    //     category:"Fab Wraps starting at 99 each",
+          {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"2 Signature Veg Wraps at 289",
+        rating:5,
+        type:"veg",
+        price:289,
+        description:"Amazing wraps and savings! What else can you ask for? Choose any two from our unique Signature Veg Wraps with delicious fillings & sauces all wrapped in a flaky paratha.",
+        tags: ['veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+        img:"https://product-assets.faasos.io/production/product/image_1622813195694_image_es_1618555841315_2%20Signature%20Veg%20Wraps%20%40279.jpg",
+
+    },
+     {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"2 Signature NonVeg Wraps at 319",
+        rating:5,
+        type:"non-veg",
+        price:319,
+        description:'Get spoiled with surprises and savings that too upto Rs. 150/-. Enjoy a delicious meal for two by choosing any two of our Signature Non-veg Wraps loaded with tender chicken & unique combinations of sauces.',
+       tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+        img:"https://product-assets.faasos.io/production/product/image_1622813742883_image_es_1618555768696_2%20Signature%20NonVeg%20Wraps%20%40309.jpg",
+
+    },
+     {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"4 Classic Veg Wraps at 379",
+        rating:5,
+        type:"non-veg",
+        price:379,
+        description:"All smiles for surprise. All hearts for savings. Save upto Rs 280 by choosing your favourite 4 Veg Classic Wraps loaded with unique ingredients. Can we get a WOW?",
+        tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+        img:"https://product-assets.faasos.io/production/product/image_1622813789447_image_es_1618555665605_4%20Classic%20Veg%20Wraps%20%40329.jpg",
+
+    },
+     {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"4 Classic NonVeg Wraps at 429",
+        rating:5,
+        type:"non-veg",
+        price:429,
+        description:'Lip-smacking flavours at jaw-dropping savings upto Rs. 320. Choose any 4 of your favourites from our Classic Non-Veg wraps with extraordinary flavors!',
+       tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+        img:"https://product-assets.faasos.io/production/product/image_1622813825677_image_es_1618555582864_4%20Classic%20NonVeg%20Wraps%20%40389.jpg",
+
+    },
+      {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"4 Signature Veg Wraps at 529",
+        rating:5,
+        type:"veg",
+        price:529,
+        description:'Savings upto Rs. 230 & many flavour-packed surprises are here to steal boredomâ€™s thunder. Choose any 4 from our unique collection of Signature veg wraps.',
+         tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+        img:"https://product-assets.faasos.io/production/product/image_1622813862514_image_es_1618555549918_4%20Signature%20Veg%20Wraps%20%40519.jpg",
+
+    },
+       {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"4 Signature NonVeg Wraps at 599",
+        rating:5,
+        type:"non-veg",
+        price:599,
+        description:'Fantastic combos from Faasos hall of fame with savings upto Rs. 340. Pick any 4 from our unique Signature Non-veg wraps & enjoy!',
+         tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+    
+        img:"https://product-assets.faasos.io/production/product/image_1622813915507_image_es_1618555480375_4%20Signature%20NonVeg%20Wraps%20%40589.jpg",
+
+    },
+        {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"3 Signature Veg Wraps at 399",
+        rating:5,
+        type:"veg",
+        price:399,
+        description:'Double century savings done for sure! Save upto Rs 200 by choosing any 3 from our Signature veg wraps & enjoy this delicious meal for 3. Because if two is company, three is a party for sure!',
+                tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo','AmazonRecommended'],
+
+        img:"https://product-assets.faasos.io/production/product/image_1622813953613_image_es_1618555724773_3%20Signature%20Veg%20Wraps%20%40389.jpg",
+
+    },
+         {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"3 Signature NonVeg Wraps at 469",
+        rating:5,
+        type:"non-veg",
+        price:469,
+        description:'Save upto Rs. 190 and surprise your tastebuds by choosing your 3 best favourite Signature Non-veg wraps loaded with deliciously unique ingredients.Theres no reason to delay here.',
+                 tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+
+        img:"https://product-assets.faasos.io/production/product/image_1622813993438_image_es_1618555708956_3%20Signature%20NonVeg%20Wraps%20%40459.jpg",
+
+    },
+          {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"3 Signature Veg Wraps at 399",
+        rating:5,
+        type:"veg",
+        price:399,
+        description:'Double century savings done for sure! Save upto Rs 200 by choosing any 3 from our Signature veg wraps & enjoy this delicious meal for 3. Because if two is company, three is a party for sure!',
+                        tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo','AmazonRecommended'],
+
+        img:"https://product-assets.faasos.io/production/product/image_1622813953613_image_es_1618555724773_3%20Signature%20Veg%20Wraps%20%40389.jpg",
+
+    },
+           {
+        category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
+        name:"3 Signature NonVeg Wraps at 469",
+        rating:5,
+        type:"non-veg",
+        price:469,
+        description:'Save upto Rs. 190 and surprise your tastebuds by choosing your 3 best favourite Signature Non-veg wraps loaded with deliciously unique ingredients.Theres no reason to delay here.',
+                         tags: ['Non veg', 'snack','ct_amz_Meals','ct_amz_Combo'],
+
+        img:"https://product-assets.faasos.io/production/product/image_1622813993438_image_es_1618555708956_3%20Signature%20NonVeg%20Wraps%20%40459.jpg",
+
+    },
+    //         {
+    //     category:"Daily Value Wrap Combos (Save Upto 40% Extra)",
     //     name:"",
     //     rating:,
-    //     type:""
+    //     type:"",
     //     price:,
     //     description:,
     //     tags: ['', ''],
     //     img:"",
 
     // },
-    
 ];
